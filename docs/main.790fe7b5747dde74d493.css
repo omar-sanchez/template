@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+:root{
+    --color-blanco      : #FFFFFF;
+    --color-bg-hover    : #4A599B;
+    --color-txt-hover   : #00F9FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../src/assets/background.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    position: relative;
+}
+

@@ -1,0 +1,41 @@
+header{
+    width: 90%;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+header .logo,
+header .logo a{
+    width: 7.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-blanco);
+}
+.toggle{
+    width: 1.875em;
+    cursor: pointer;
+    color: var(--color-blanco);
+    margin-left: 3.75em;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 3.75em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-blanco);
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+    background: var(--color-bg-hover);
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--color-txt-hover);
+    transition: all .5s;
+}

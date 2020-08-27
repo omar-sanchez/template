@@ -4,10 +4,10 @@ const undersore =   document.getElementsByClassName('underscore');
 const img       =   document.querySelector('.img');
 
 const arrayGallery = new Array(
-    "../src/assets/img-01.jpg",
-    "../src/assets/img-02.jpg",
-    "../src/assets/img-03.jpg",
-    "../src/assets/img-04.jpg",
+    "assets/img-01.jpg",
+    "assets/img-02.jpg",
+    "assets/img-03.jpg",
+    "assets/img-04.jpg",
 )
 
 /* arrayGallery.forEach(element => {

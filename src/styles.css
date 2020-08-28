@@ -16,7 +16,7 @@
 .banner{
     width: 100%;
     min-height: 100vh;
-    background: url('../src/assets/background.jpg');
+    background: url('./assets/background.jpg');
     background-size: cover;
     background-position: right bottom;
     position: relative;

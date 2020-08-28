@@ -9,14 +9,6 @@ const arrayGallery = new Array(
     "assets/img-03.jpg",
     "assets/img-04.jpg",
 )
-
-/* arrayGallery.forEach(element => {
-    undersore[element].onclick = ()=>{
-        img.src = arrayGallery[element];
-    }
-});
- */
-
  for (let i = 0; i < undersore.length; i++) {
     undersore[i].onclick = function(){
         img.src = arrayGallery[i];
@@ -24,17 +16,4 @@ const arrayGallery = new Array(
         current[0].className = current[0].className.replace("active", "");
         this.className += " active";
     }
-    
  }
-
-/*  for( let i in arrayGallery){
-     undersore[i].onclick() = ()=>{
-         console.log(arrayGallery[i]);
-     }
- } */
-
-/*  undersore.addEventListener('onclick', ()=>{
-     for (const i in arrayGallery) {
-        img.src = arrayGallery[i];
-     }
- }) */
